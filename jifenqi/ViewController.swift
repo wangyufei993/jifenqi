@@ -22,6 +22,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     //从SQLite加载数据
+    @IBAction func clean(sender: AnyObject) {
+        lable1.text="0"
+        lable2.text="0"
+        saveUser()
+        
+    }
     @IBAction func saveClicked(sender: AnyObject) {
         saveUser()
     }

@@ -73,9 +73,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NqJ-gK-ooe">
-                                <rect key="frame" x="180" y="414" width="46" height="30"/>
+                                <rect key="frame" x="36" y="463" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="保存数据"/>
                                 <connections>
                                     <action selector="saveClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lsO-i4-Bx7"/>
                                 </connections>
@@ -86,6 +86,14 @@
                                 <state key="normal" title="＋1"/>
                                 <connections>
                                     <action selector="add1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="twt-18-Yjd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7Nd-fT-tJk">
+                                <rect key="frame" x="187" y="463" width="61" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="比分置零"/>
+                                <connections>
+                                    <action selector="clean:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNT-ZC-Y7x"/>
                                 </connections>
                             </button>
                         </subviews>
