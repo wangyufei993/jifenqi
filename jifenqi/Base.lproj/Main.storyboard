@@ -30,7 +30,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oI3-J7-MoW">
                                 <rect key="frame" x="210" y="212" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="＋1"/>
+                                <state key="normal" title="胜"/>
                                 <connections>
                                     <action selector="add2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GkU-FU-fy8"/>
                                 </connections>
@@ -83,7 +83,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eBh-yX-03k">
                                 <rect key="frame" x="76" y="212" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="＋1"/>
+                                <state key="normal" title="胜"/>
                                 <connections>
                                     <action selector="add1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="twt-18-Yjd"/>
                                 </connections>

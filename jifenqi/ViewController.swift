@@ -90,11 +90,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func add1(sender: AnyObject) {
-        lable1.text=String(Int(lable1.text!)!+1)
+        lable1.text=String(Int(lable1.text!)!+3)
     }
 
     @IBAction func add2(sender: AnyObject) {
-        lable2.text=String(Int(lable2.text!)!+1)
+        lable2.text=String(Int(lable2.text!)!+3)
     }
 
     @IBOutlet weak var lable1: UILabel!
