@@ -27,14 +27,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oI3-J7-MoW">
-                                <rect key="frame" x="210" y="212" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="胜"/>
-                                <connections>
-                                    <action selector="add2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GkU-FU-fy8"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rsk-Yj-yhs">
                                 <rect key="frame" x="102" y="251" width="96" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -81,7 +73,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eBh-yX-03k">
-                                <rect key="frame" x="76" y="212" width="30" height="30"/>
+                                <rect key="frame" x="76" y="213" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="胜"/>
                                 <connections>
@@ -102,6 +94,22 @@
                                 <state key="normal" title="开始"/>
                                 <connections>
                                     <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hf9-MM-XcO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6a2-J3-1tO">
+                                <rect key="frame" x="135" y="213" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="平"/>
+                                <connections>
+                                    <action selector="add3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XEa-i0-vGB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oI3-J7-MoW">
+                                <rect key="frame" x="210" y="213" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="胜"/>
+                                <connections>
+                                    <action selector="add2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GkU-FU-fy8"/>
                                 </connections>
                             </button>
                         </subviews>
