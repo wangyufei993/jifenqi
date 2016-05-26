@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     var db :SQLiteDB!
-    var timer:NSTimer!
+    var timer:NSTimer!//定时器
     var _time:Int = 2700
     
     var isStart:Int = 0
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
             isStart = 1;
             btStart.setTitle("暂停", forState: UIControlState.Normal)
         }else{
-            timer.invalidate()
+            timer.invalidate()//停止计时器
             btStart.setTitle("开始", forState: UIControlState.Normal)
             isStart = 0
         }
