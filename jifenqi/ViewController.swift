@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         saveUser()
         
     }
+    //点击保存
     @IBAction func saveClicked(sender: AnyObject) {
         saveUser()
     }
